@@ -1,4 +1,5 @@
-FROM --platform=linux/x86_64 golang:latest
+# FROM --platform=linux/x86_64 golang:latest
+FROM golang:1.22 AS local
 
 RUN mkdir /go/src/work
 

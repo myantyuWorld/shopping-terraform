@@ -14,7 +14,7 @@ resource "aws_ecs_task_definition" "task_definition" {
             {
                 cpu              = 0
                 essential        = true
-                image            = ""
+                image            = "583492173965.dkr.ecr.ap-northeast-1.amazonaws.com/sample-myantyuworld-go-server:latest"
                 logConfiguration = {
                     logDriver = "awslogs"
                     options   = {
